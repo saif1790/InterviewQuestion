@@ -45,8 +45,8 @@ public class DuplicateEmpNameCount {
 
 		System.out.println("Output through stream API concept");
 		Map<String, Long> count = listEmp.stream()
-				.collect(Collectors.groupingBy(Employee::getName, Collectors.counting()));
-
+				.collect(Collectors.groupingBy(Employee::getName,Collectors.counting()));
+		 
 		System.out.println(count);
 
 	}

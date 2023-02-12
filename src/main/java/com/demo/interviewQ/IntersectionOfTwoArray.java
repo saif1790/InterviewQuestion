@@ -12,5 +12,6 @@ public class IntersectionOfTwoArray {
 
 		System.out.println("Intersection of 2 arrays");
 		Arrays.stream(a1).filter(x -> Arrays.stream(a2).anyMatch(y -> y == x)).distinct().forEach(System.out::println);
+		System.out.println("------");
 	}
 }

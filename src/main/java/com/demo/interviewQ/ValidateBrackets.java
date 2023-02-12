@@ -6,7 +6,7 @@ public class ValidateBrackets {
 
 	public static void main(String[] args) {
 
-		String s = "([{}";
+		String s = "{[(()))]}";
 		int l = s.length();
 		System.out.println(l);
 
